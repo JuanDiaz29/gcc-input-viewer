@@ -1,0 +1,39 @@
+Capture session 2026-10-12 18:53:49 to 19:13:59, 2 captures: up_smash, up_smash
+==============================================================================
+
+Captures go to vcd_cap\gcc_<name>.vcd. Blank name quits and saves this session's output to vcd_cap\capture_log_2026-10-12_185349.txt.
+
+Capture name: up_smash
+Hold the input. Capturing in 2... 1... now
+Capture   up_smash   2026-10-12 19:05:56
+Saved vcd_cap\gcc_up_smash.vcd
+  1251 bursts in 1250.0 ms, 1250 complete polls, 982-1016 us apart
+  commands seen: 40 03 00 x1250, 40 03 00 80 40 41 C1 BF 3F 0F 11 x1
+
+  reply (hex)               polls   buttons   stick X   stick Y   C-stick X   C-stick Y    L    R
+  -----------------------   -----   -------   -------   -------   ---------   ---------   --   --
+  00 80 83 83 7F 7E 1E 22     453   none          131       131         127         126   30   34
+  00 80 83 83 7E 7E 1E 22     332   none          131       131         126         126   30   34
+  00 80 83 83 7E 7E 1E 21     108   none          131       131         126         126   30   33
+  00 80 83 83 7F 7E 1E 21      58   none          131       131         127         126   30   33
+  01 80 80 EB 7F 7E 1E 27      38   A             128       235         127         126   30   39
+  ... 82 more distinct replies (run gc_decode.py for all of them)
+
+Capture name: up_smash
+vcd_cap\gcc_up_smash.vcd exists. Overwrite? [y/N] y
+Hold the input. Capturing in 2... 1... now
+Capture   up_smash   2026-10-12 19:06:25
+Saved vcd_cap\gcc_up_smash.vcd
+  1251 bursts in 1250.0 ms, 1249 complete polls, 906-1016 us apart
+  commands seen: 40 03 00 x1249, (partial) x1, 40 03 00 80 40 41 C1 BF BF 0F 10 x1
+
+  reply (hex)               polls   buttons   stick X   stick Y   C-stick X   C-stick Y    L    R
+  -----------------------   -----   -------   -------   -------   ---------   ---------   --   --
+  00 80 83 83 7F 7E 1E 22     538   none          131       131         127         126   30   34
+  00 80 83 83 7F 7D 1E 22     197   none          131       131         127         125   30   34
+  01 80 83 EB 7F 7E 1E 24     124   A             131       235         127         126   30   36
+  00 80 83 83 7F 7E 1E 21     121   none          131       131         127         126   30   33
+  01 80 84 EB 7F 7E 1E 24      18   A             132       235         127         126   30   36
+  ... 166 more distinct replies (run gc_decode.py for all of them)
+
+Capture name: 

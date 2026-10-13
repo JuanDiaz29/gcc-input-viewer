@@ -1,0 +1,332 @@
+Capture session 2026-10-11 15:41:13 to 21:11:39, 27 captures: idle, A, B, X, X, Y, Start, Z, D_up, D_down, D_left, D-Right, L_light, L_light, L_half, L_half, L_full, L_clicked, L_light, L_half, L_full, L_clicked, R_light, R_half, R_full, R_full, R_clicked
+==============================================================================
+
+Captures go to vcd_cap\gcc_<name>.vcd. Blank name quits and saves this session's output to vcd_cap\capture_log_2026-10-11_154113.txt.
+
+Capture name: idle
+Hold the input. Capturing in 2... 1... now
+Capture   idle   2026-10-11 15:41:20
+Saved vcd_cap\gcc_idle.vcd
+  126 bursts in 125.0 ms, 125 complete polls, 983-1016 us apart
+  commands seen: 40 03 00 x125, 40 03 x1
+
+  reply (hex)               polls   buttons   stick X   stick Y   C-stick X   C-stick Y    L    R
+  -----------------------   -----   -------   -------   -------   ---------   ---------   --   --
+  00 80 83 83 7F 7D 1C 1E     125   none          131       131         127         125   28   30
+
+Capture name: A
+Hold the input. Capturing in 2... 1... now
+Capture   A   2026-10-11 15:42:12
+Saved vcd_cap\gcc_A.vcd
+  126 bursts in 125.0 ms, 124 complete polls, 660-1000 us apart
+  commands seen: 40 03 00 x124, (partial) x1, 40 03 00 80 C0 41 C1 BF BE 8E 0F x1
+
+  reply (hex)               polls   buttons   stick X   stick Y   C-stick X   C-stick Y    L    R
+  -----------------------   -----   -------   -------   -------   ---------   ---------   --   --
+  01 80 83 83 7F 7D 1C 1E     124   A             131       131         127         125   28   30
+
+Capture name: B
+Hold the input. Capturing in 2... 1... now
+Capture   B   2026-10-11 15:43:00
+Saved vcd_cap\gcc_B.vcd
+  126 bursts in 125.0 ms, 124 complete polls, 656-1015 us apart
+  commands seen: 40 03 00 x124, (partial) x1, 40 03 00 81 40 41 C1 BF BE 8E 0F x1
+
+  reply (hex)               polls   buttons   stick X   stick Y   C-stick X   C-stick Y    L    R
+  -----------------------   -----   -------   -------   -------   ---------   ---------   --   --
+  02 80 83 83 7F 7D 1C 1E     124   B             131       131         127         125   28   30
+
+Capture name: X
+Hold the input. Capturing in 2... 1... now
+Capture   X   2026-10-11 15:43:47
+Saved vcd_cap\gcc_X.vcd
+  126 bursts in 125.0 ms, 125 complete polls, 983-1015 us apart
+  commands seen: 40 03 00 x125, 40 03 x1
+
+  reply (hex)               polls   buttons   stick X   stick Y   C-stick X   C-stick Y    L    R
+  -----------------------   -----   -------   -------   -------   ---------   ---------   --   --
+  00 80 82 83 7F 7D 1D 1E      70   none          130       131         127         125   29   30
+  00 80 82 82 7F 7D 1C 1E      33   none          130       130         127         125   28   30
+  00 80 82 82 7F 7D 1D 1E      10   none          130       130         127         125   29   30
+  00 80 82 83 7F 7C 1D 1E       4   none          130       131         127         124   29   30
+  00 80 82 80 7F 7D 1C 1E       3   none          130       128         127         125   28   30
+  ... 4 more distinct replies (run gc_decode.py for all of them)
+
+Capture name: X
+vcd_cap\gcc_X.vcd exists. Overwrite? [y/N] y
+Hold the input. Capturing in 2... 1... now
+Capture   X   2026-10-11 15:44:16
+Saved vcd_cap\gcc_X.vcd
+  126 bursts in 125.0 ms, 125 complete polls, 983-1015 us apart
+  commands seen: 40 03 00 x125, (partial) x1
+
+  reply (hex)               polls   buttons   stick X   stick Y   C-stick X   C-stick Y    L    R
+  -----------------------   -----   -------   -------   -------   ---------   ---------   --   --
+  04 80 82 82 7E 7D 1D 1F     117   X             130       130         126         125   29   31
+  04 80 82 82 7E 7D 1D 1E       8   X             130       130         126         125   29   30
+
+Capture name: Y
+Hold the input. Capturing in 2... 1... now
+Capture   Y   2026-10-11 15:45:19
+Saved vcd_cap\gcc_Y.vcd
+  126 bursts in 125.0 ms, 124 complete polls, 880-1015 us apart
+  commands seen: 40 03 00 x124, (partial) x1, 40 03 00 84 40 41 x1
+
+  reply (hex)               polls   buttons   stick X   stick Y   C-stick X   C-stick Y    L    R
+  -----------------------   -----   -------   -------   -------   ---------   ---------   --   --
+  08 80 82 82 7E 7D 1D 21     123   Y             130       130         126         125   29   33
+  08 80 82 82 7F 7D 1D 21       1   Y             130       130         127         125   29   33
+
+Capture name: Start
+Hold the input. Capturing in 2... 1... now
+Capture   Start   2026-10-11 15:46:03
+Saved vcd_cap\gcc_Start.vcd
+  126 bursts in 125.0 ms, 125 complete polls, 984-1016 us apart
+  commands seen: 40 03 00 x125, 40 03 x1
+
+  reply (hex)               polls   buttons   stick X   stick Y   C-stick X   C-stick Y    L    R
+  -----------------------   -----   -------   -------   -------   ---------   ---------   --   --
+  10 80 82 82 7E 7D 1D 21     123   Start         130       130         126         125   29   33
+  10 80 82 82 7F 7D 1D 21       2   Start         130       130         127         125   29   33
+
+Capture name: Z
+Hold the input. Capturing in 2... 1... now
+Capture   Z   2026-10-11 15:46:59
+Saved vcd_cap\gcc_Z.vcd
+  126 bursts in 125.0 ms, 124 complete polls, 949-1015 us apart
+  commands seen: 40 03 00 x124, (partial) x2
+
+  reply (hex)               polls   buttons   stick X   stick Y   C-stick X   C-stick Y    L    R
+  -----------------------   -----   -------   -------   -------   ---------   ---------   --   --
+  00 90 82 82 7F 7D 1C 21     123   Z             130       130         127         125   28   33
+  00 90 82 82 7E 7D 1C 21       1   Z             130       130         126         125   28   33
+
+Capture name: D_up
+Hold the input. Capturing in 2... 1... now
+Capture   D_up   2026-10-11 15:47:38
+Saved vcd_cap\gcc_D_up.vcd
+  126 bursts in 125.0 ms, 125 complete polls, 983-1015 us apart
+  commands seen: 40 03 00 x125, 40 03 x1
+
+  reply (hex)               polls   buttons   stick X   stick Y   C-stick X   C-stick Y    L    R
+  -----------------------   -----   -------   -------   -------   ---------   ---------   --   --
+  00 88 82 82 7F 7D 1D 21     125   D-Up          130       130         127         125   29   33
+
+Capture name: D_down
+Hold the input. Capturing in 2... 1... now
+Capture   D_down   2026-10-11 15:48:18
+Saved vcd_cap\gcc_D_down.vcd
+  126 bursts in 125.0 ms, 125 complete polls, 999-1000 us apart
+  commands seen: 40 03 00 x125, 40 03 x1
+
+  reply (hex)               polls   buttons   stick X   stick Y   C-stick X   C-stick Y    L    R
+  -----------------------   -----   -------   -------   -------   ---------   ---------   --   --
+  00 84 82 82 7F 7D 1D 21     125   D-Down        130       130         127         125   29   33
+
+Capture name: D_left
+Hold the input. Capturing in 2... 1... now
+Capture   D_left   2026-10-11 15:48:51
+Saved vcd_cap\gcc_D_left.vcd
+  126 bursts in 125.0 ms, 124 complete polls, 696-1015 us apart
+  commands seen: 40 03 00 x124, (partial) x1, 40 03 00 80 40 C1 41 3F BE 8E 90 x1
+
+  reply (hex)               polls   buttons   stick X   stick Y   C-stick X   C-stick Y    L    R
+  -----------------------   -----   -------   -------   -------   ---------   ---------   --   --
+  00 81 82 82 7F 7D 1D 21     124   D-Left        130       130         127         125   29   33
+
+Capture name: D-Right
+Hold the input. Capturing in 2... 1... now
+Capture   D-Right   2026-10-11 15:49:44
+Saved vcd_cap\gcc_D-Right.vcd
+  126 bursts in 125.0 ms, 125 complete polls, 986-1012 us apart
+  commands seen: 40 03 00 x125, 40 03 x1
+
+  reply (hex)               polls   buttons   stick X   stick Y   C-stick X   C-stick Y    L    R
+  -----------------------   -----   -------   -------   -------   ---------   ---------   --   --
+  00 82 82 82 7F 7D 1D 21      73   D-Right       130       130         127         125   29   33
+  00 82 82 83 7F 7D 1D 21      52   D-Right       130       131         127         125   29   33
+
+Capture name: L_light
+Hold the input. Capturing in 2... 1... now
+Capture   L_light   2026-10-11 15:50:47
+Saved vcd_cap\gcc_L_light.vcd
+  126 bursts in 125.0 ms, 125 complete polls, 999-999 us apart
+  commands seen: 40 03 00 x125, 40 03 x1
+
+  reply (hex)               polls   buttons   stick X   stick Y   C-stick X   C-stick Y    L    R
+  -----------------------   -----   -------   -------   -------   ---------   ---------   --   --
+  00 80 6F 7F 7F 7D 29 1F     119   none          111       127         127         125   41   31
+  00 80 6F 7F 7F 7D 29 1E       6   none          111       127         127         125   41   30
+
+Capture name: L_light
+vcd_cap\gcc_L_light.vcd exists. Overwrite? [y/N] y
+Hold the input. Capturing in 2... 1... now
+Capture   L_light   2026-10-11 15:51:51
+Saved vcd_cap\gcc_L_light.vcd
+  126 bursts in 125.0 ms, 125 complete polls, 983-1015 us apart
+  commands seen: 40 03 00 x125, (partial) x1
+
+  reply (hex)               polls   buttons   stick X   stick Y   C-stick X   C-stick Y    L    R
+  -----------------------   -----   -------   -------   -------   ---------   ---------   --   --
+  00 80 73 82 7F 7D 1F 1E     125   none          115       130         127         125   31   30
+
+Capture name: L_half
+Hold the input. Capturing in 2... 1... now
+Capture   L_half   2026-10-11 15:52:36
+Saved vcd_cap\gcc_L_half.vcd
+  126 bursts in 125.0 ms, 125 complete polls, 983-1015 us apart
+  commands seen: 40 03 00 x125, 40 03 x1
+
+  reply (hex)               polls   buttons   stick X   stick Y   C-stick X   C-stick Y    L    R
+  -----------------------   -----   -------   -------   -------   ---------   ---------   --   --
+  00 80 68 81 7F 7D 1F 1D     125   none          104       129         127         125   31   29
+
+Capture name: L_half
+vcd_cap\gcc_L_half.vcd exists. Overwrite? [y/N] y
+Hold the input. Capturing in 2... 1... now
+Capture   L_half   2026-10-11 15:53:05
+Saved vcd_cap\gcc_L_half.vcd
+  126 bursts in 125.0 ms, 125 complete polls, 984-1015 us apart
+  commands seen: 40 03 00 x125, 40 03 x1
+
+  reply (hex)               polls   buttons   stick X   stick Y   C-stick X   C-stick Y    L    R
+  -----------------------   -----   -------   -------   -------   ---------   ---------   --   --
+  00 80 56 84 7F 7D 1E 1D      91   none           86       132         127         125   30   29
+  00 80 55 84 7F 7D 1E 1D      34   none           85       132         127         125   30   29
+
+Capture name: L_full
+Hold the input. Capturing in 2... 1... now
+Capture   L_full   2026-10-11 15:54:18
+Saved vcd_cap\gcc_L_full.vcd
+  126 bursts in 125.0 ms, 124 complete polls, 944-1012 us apart
+  commands seen: 40 03 00 x124, (partial) x2
+
+  reply (hex)               polls   buttons   stick X   stick Y   C-stick X   C-stick Y    L    R
+  -----------------------   -----   -------   -------   -------   ---------   ---------   --   --
+  00 80 18 84 7F 7D 1D 1D     101   none           24       132         127         125   29   29
+  00 80 19 84 7F 7D 1D 1D      16   none           25       132         127         125   29   29
+  00 80 18 84 7F 7D 1D 1E       5   none           24       132         127         125   29   30
+  00 80 19 84 7F 7D 1D 1E       2   none           25       132         127         125   29   30
+
+Capture name: L_clicked
+Hold the input. Capturing in 2... 1... now
+Capture   L_clicked   2026-10-11 17:48:17
+Saved vcd_cap\gcc_L_clicked.vcd
+  126 bursts in 125.0 ms, 124 complete polls, 856-1015 us apart
+  commands seen: 40 03 00 x124, (partial) x2
+
+  reply (hex)               polls   buttons   stick X   stick Y   C-stick X   C-stick Y     L    R
+  -----------------------   -----   -------   -------   -------   ---------   ---------   ---   --
+  00 C0 83 83 7F 7D F0 1E     123   L             131       131         127         125   240   30
+  00 C0 83 82 7F 7D F0 1E       1   L             131       130         127         125   240   30
+
+Capture name: L_light
+vcd_cap\gcc_L_light.vcd exists. Overwrite? [y/N] y
+Hold the input. Capturing in 2... 1... now
+Capture   L_light   2026-10-11 17:49:22
+Saved vcd_cap\gcc_L_light.vcd
+  126 bursts in 125.0 ms, 124 complete polls, 620-1015 us apart
+  commands seen: 40 03 00 x124, (partial) x1, 40 03 00 80 40 41 C1 BF BE A6 8F x1
+
+  reply (hex)               polls   buttons   stick X   stick Y   C-stick X   C-stick Y    L    R
+  -----------------------   -----   -------   -------   -------   ---------   ---------   --   --
+  00 80 83 83 7F 7D 4D 1E     123   none          131       131         127         125   77   30
+  00 80 82 83 7F 7D 4D 1E       1   none          130       131         127         125   77   30
+
+Capture name: L_half
+vcd_cap\gcc_L_half.vcd exists. Overwrite? [y/N] y
+Hold the input. Capturing in 2... 1... now
+Capture   L_half   2026-10-11 17:50:40
+Saved vcd_cap\gcc_L_half.vcd
+  126 bursts in 125.0 ms, 125 complete polls, 983-1015 us apart
+  commands seen: 40 03 00 x125, 40 03 x1
+
+  reply (hex)               polls   buttons   stick X   stick Y   C-stick X   C-stick Y     L    R
+  -----------------------   -----   -------   -------   -------   ---------   ---------   ---   --
+  00 80 83 83 7F 7D 89 1E      50   none          131       131         127         125   137   30
+  00 80 82 83 7F 7D 89 1E      33   none          130       131         127         125   137   30
+  00 80 83 83 7F 7D 88 1E      28   none          131       131         127         125   136   30
+  00 80 82 83 7F 7D 88 1E      14   none          130       131         127         125   136   30
+
+Capture name: L_full
+vcd_cap\gcc_L_full.vcd exists. Overwrite? [y/N] y
+Hold the input. Capturing in 2... 1... now
+Capture   L_full   2026-10-11 17:51:24
+Saved vcd_cap\gcc_L_full.vcd
+  126 bursts in 125.0 ms, 125 complete polls, 984-1015 us apart
+  commands seen: 40 03 00 x125, (partial) x1
+
+  reply (hex)               polls   buttons   stick X   stick Y   C-stick X   C-stick Y     L    R
+  -----------------------   -----   -------   -------   -------   ---------   ---------   ---   --
+  00 80 83 83 7F 7D C5 1E     125   none          131       131         127         125   197   30
+
+Capture name: L_clicked
+vcd_cap\gcc_L_clicked.vcd exists. Overwrite? [y/N] y
+Hold the input. Capturing in 2... 1... now
+Capture   L_clicked   2026-10-11 17:52:09
+Saved vcd_cap\gcc_L_clicked.vcd
+  126 bursts in 125.0 ms, 125 complete polls, 971-1015 us apart
+  commands seen: 40 03 00 x125, (partial) x1
+
+  reply (hex)               polls   buttons   stick X   stick Y   C-stick X   C-stick Y     L    R
+  -----------------------   -----   -------   -------   -------   ---------   ---------   ---   --
+  00 C0 82 83 7F 7D EF 1E     109   L             130       131         127         125   239   30
+  00 C0 83 83 7F 7D EF 1E      16   L             131       131         127         125   239   30
+
+Capture name: R_light
+Hold the input. Capturing in 2... 1... now
+Capture   R_light   2026-10-11 17:52:51
+Saved vcd_cap\gcc_R_light.vcd
+  126 bursts in 125.0 ms, 124 complete polls, 989-1000 us apart
+  commands seen: 40 03 00 x124, (partial) x2
+
+  reply (hex)               polls   buttons   stick X   stick Y   C-stick X   C-stick Y    L    R
+  -----------------------   -----   -------   -------   -------   ---------   ---------   --   --
+  00 80 82 83 7F 7D 20 62     124   none          130       131         127         125   32   98
+
+Capture name: R_half
+Hold the input. Capturing in 2... 1... now
+Capture   R_half   2026-10-11 17:53:35
+Saved vcd_cap\gcc_R_half.vcd
+  126 bursts in 125.0 ms, 125 complete polls, 983-1015 us apart
+  commands seen: 40 03 00 x125, 40 03 x1
+
+  reply (hex)               polls   buttons   stick X   stick Y   C-stick X   C-stick Y    L     R
+  -----------------------   -----   -------   -------   -------   ---------   ---------   --   ---
+  00 80 82 83 7F 7D 20 91     125   none          130       131         127         125   32   145
+
+Capture name: R_full
+Hold the input. Capturing in 2... 1... now
+Capture   R_full   2026-10-11 17:54:13
+Saved vcd_cap\gcc_R_full.vcd
+  126 bursts in 125.0 ms, 125 complete polls, 999-999 us apart
+  commands seen: 40 03 00 x125, 40 03 x1
+
+  reply (hex)               polls   buttons   stick X   stick Y   C-stick X   C-stick Y    L     R
+  -----------------------   -----   -------   -------   -------   ---------   ---------   --   ---
+  00 A0 82 83 7F 7E 20 F2     125   R             130       131         127         126   32   242
+
+Capture name: R_full
+vcd_cap\gcc_R_full.vcd exists. Overwrite? [y/N] y
+Hold the input. Capturing in 2... 1... now
+Capture   R_full   2026-10-11 17:54:38
+Saved vcd_cap\gcc_R_full.vcd
+  126 bursts in 125.0 ms, 125 complete polls, 987-1012 us apart
+  commands seen: 40 03 00 x125, 40 03 x1
+
+  reply (hex)               polls   buttons   stick X   stick Y   C-stick X   C-stick Y    L     R
+  -----------------------   -----   -------   -------   -------   ---------   ---------   --   ---
+  00 80 82 83 7F 7E 1C C0     125   none          130       131         127         126   28   192
+
+Capture name: R_clicked
+Hold the input. Capturing in 2... 1... now
+Capture   R_clicked   2026-10-11 17:55:16
+Saved vcd_cap\gcc_R_clicked.vcd
+  126 bursts in 125.0 ms, 124 complete polls, 676-1015 us apart
+  commands seen: 40 03 00 x124, (partial) x1, 40 03 00 80 50 41 41 BF BF 0E 78 x1
+
+  reply (hex)               polls   buttons   stick X   stick Y   C-stick X   C-stick Y    L     R
+  -----------------------   -----   -------   -------   -------   ---------   ---------   --   ---
+  00 A0 82 83 7F 7E 1C F1     124   R             130       131         127         126   28   241
+
+Capture name: 
